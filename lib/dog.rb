@@ -1,4 +1,7 @@
 # Add your code here
+
+require pry
+
 class Dog
 
   @@all = []
@@ -6,6 +9,7 @@ class Dog
 attr_accessor :name
 
 def initialize(name)
+binding.pry
   @name = name
   @@all << @name
 end
