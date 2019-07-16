@@ -22,8 +22,8 @@ def self.clear_all
 end
 
 def self.print_all
-@@names.uniq = names
-return names
+@@names.uniq
+
 end
 
 
