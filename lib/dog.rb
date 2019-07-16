@@ -22,10 +22,7 @@ def self.clear_all
 end
 
 def self.print_all
-puts "#{@@names.uniq.join(\n)}"
-
+@@all.uniq
 end
-
-
 
 end
