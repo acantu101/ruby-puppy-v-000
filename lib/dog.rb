@@ -4,12 +4,13 @@
 class Dog
 
   @@all = []
-
+  @@names = []
 attr_accessor :name
 
 def initialize(name)
   @name = name
   @@all << self
+  @@names << name
 end
 
 def self.all
@@ -21,7 +22,11 @@ def self.clear_all
 end
 
 def self.print_all
-  puts "#{name}"
+@@names.uniq = names
+return names
+end
+
+
 end
 
 end
